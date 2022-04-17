@@ -1,0 +1,25 @@
+.product{
+    line-height: 30px;
+    font-size: 2rem;
+}
+
+.checker{
+    background-image: url("../../assets/svg/check-circle.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.checker.marked {
+    background-image: url("../../assets/svg/check-circle-fill.svg");
+}
+
+.productWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}

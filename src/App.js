@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import ListContainer from './containers/list';
+import ControlsContainer from './containers/controls';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ControlsContainer />
+      <ListContainer />
     </div>
   );
 }

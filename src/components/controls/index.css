@@ -1,0 +1,45 @@
+.control {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.init{
+    background-image: url("../../assets/svg/cart-plus.svg");
+}
+
+.init.active {
+    background-image: url("../../assets/svg/cart-plus-fill.svg");
+}
+
+.approve{
+    background-image: url("../../assets/svg/caret-right.svg");
+}
+
+.approve.active{
+    background-image: url("../../assets/svg/caret-right-fill.svg");
+}
+
+.complite{
+    background-image: url("../../assets/svg/cart-check.svg");
+}
+
+.complite.active{
+    background-image: url("../../assets/svg/cart-check-fill.svg");
+}
