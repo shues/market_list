@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is simple list of products for daily shopping created with React + Redux like demo of my competitions in this theme.
+
 ## Available Scripts
 
 In the project directory, you can run:
